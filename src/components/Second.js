@@ -4,8 +4,8 @@ import React from 'react';
     {
         const PG_NAME = <div className="post_pgtit">Second</div>
         return(
-                <div class>
-                    <h2>Second</h2>
+                <div className="post_area">
+                    { PG_NAME }
                 </div>
         );
     }
