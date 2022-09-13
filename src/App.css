@@ -3,7 +3,7 @@
 .wrap_area .header_area { display:block; width:100%; height:80px; line-height:80px; text-align:center; border-bottom:1px solid #ececec; }
 
 .wrap_area .nav_area { display:block; height:50px; border-bottom:1px solid #ececec; text-align:center; }
-.wrap_area .nav_area li { display:inline-block; width:100px; height:50px; line-height:50px; text-align:center; }
+.wrap_area .nav_area li { display:inline-block; width:200px; height:50px; line-height:50px; text-align:center; }
 
 .wrap_area .post_area { display:block; width:90%; padding:5%; }
 .wrap_area .post_area .post_pgtit { display:block; width:100%; height:50px; line-height:50px; border-bottom:1px solid #ececec; }

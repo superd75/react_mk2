@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 //import { Post, First, Second, Third} from './Post_index';
-import Post from './Post';
-import First from './First';
-import Second from './Second';
+import Post_00 from './Post_00';
+import Post_01 from './Post_01';
+//import Second from './Second';
 import Third from './Third';
 
 
@@ -14,17 +14,17 @@ import Third from './Third';
             <Router>
                 <div className="nav_area">
                     <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/First'>First</Link></li>
-                        <li><Link to='/Second'>Second</Link></li>
-                        <li><Link to='/Third/1'>Third</Link></li>
+                        <li><Link to='/'>HOME</Link></li>
+                        <li><Link to='/Post_01/MENU_01'>MEMU_01</Link></li>
+                        <li><Link to='/Post_01/MENU_02'>MENU_02</Link></li>
+                        <li><Link to='/Third/1'>MYPAGE</Link></li>
                     </ul>
                 </div>
                 <div>
                     <Switch> 
-                        <Route exact path='/'><Post /></Route>
-                        <Route path='/First'><First /></Route>
-                        <Route path='/Second'><Second /></Route>
+                        <Route exact path='/'><Post_00 /></Route>
+                        <Route path='/Post_01/:pgname'><Post_01 /></Route>
+                        <Route path='/Post_01/:pgname'><Post_01 /></Route>
                         <Route path='/Third/:no' ><Third /></Route>
                     </Switch>
                 </div>
