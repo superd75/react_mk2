@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-//import { Post, First, Second, Third} from './Post_index';
 import Post_00 from './Post_00';
 import Post_01 from './Post_01';
 import Post_my from './Post_my';

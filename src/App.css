@@ -1,4 +1,16 @@
 * { margin:0; padding:0;}
+a { text-decoration:none; }
+
+
+
+.g_txt_le { text-align:left; }
+.g_txt_ri { text-align:right; }
+.g_txt_ce { text-align:center; }
+.g_btn { /*display:block;*/ width:150px; height:30px; border:1px solid #ddd; cursor:pointer; }
+
+
+
+
 .wrap_area { display:block; width:100%; }
 .wrap_area .header_area { display:block; width:100%; height:80px; line-height:80px; text-align:center; border-bottom:1px solid #ececec; }
 
@@ -7,5 +19,25 @@
 
 .wrap_area .post_area { display:block; width:90%; padding:5%; }
 .wrap_area .post_area .post_pgtit { display:block; width:100%; height:50px; line-height:50px; border-bottom:1px solid #ececec; }
+.wrap_area .post_area .post_pgbox { display:block; width:100%; padding:5% 0; font-size:13px; }
+.wrap_area .post_area .post_pgbox p { display:block; padding:10px 0; }
 
 .wrap_area .footer_area { display:block; width:100%; height:100px; background:rgb(0,0,0,0.8); color:#fff; text-align:center; line-height:100px; }
+
+
+.body_area  { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; flex-direction:row;  width:100%; height:calc(100vh - 50px);  }
+.body_area button { display:block; padding:10px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+
+.modal_dimm { position:fixed; left:0; top:0; z-index:1; display:block; width:100%; height:100vh; background:rgba(0, 0,0,0.5);; }
+.modal_dimm .modal { position:absolute; left:50%; top:50%; z-index:2; width:500px; height:300px; transform:translate(-50%,-50%); background:#fff; border-radius:30px; }
+.modal_dimm .modal .btn { position:absolute; right:30px; top:19px; width:30px; height:30px; border:0px dotted #000; transform:rotate(45deg); cursor:pointer;}
+.modal_dimm .modal .btn:before { content:""; position: absolute; left:0%; top:15px; width:30px; height:1px; background:rgba(0, 0,0,1);  }
+.modal_dimm .modal .btn:after { content:""; position: absolute; left:50%; top:0px; width:1px; height:30px; background:rgba(0, 0,0,1);  }
+.modal_dimm .modal .tit { position:relative; display:block; width:100%; height:60px; line-height:70px; border-bottom:1px solid #ececec; padding:0 30px 0 30px; box-sizing:border-box; font-weight:bold; font-size:20px;} 
+.modal_dimm .modal .tit .btn { position:absolute; right:30px; top:19px; width:30px; height:30px; border:0px dotted #000; transform:rotate(45deg); cursor:pointer;}
+.modal_dimm .modal .tit .btn:before { content:""; position: absolute; left:0%; top:15px; width:30px; height:1px; background:rgba(0, 0,0,1);  }
+.modal_dimm .modal .tit .btn:after { content:""; position: absolute; left:50%; top:0px; width:1px; height:30px; background:rgba(0, 0,0,1);  }
+.modal_dimm .modal .bdy {  padding:20px 30px; }
+
+
+

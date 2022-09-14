@@ -6,7 +6,6 @@ import React from 'react';
         return(
             <div className="post_area">
                 { PG_NAME }
-
             </div>
         );
     }
