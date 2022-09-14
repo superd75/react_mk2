@@ -7,7 +7,7 @@ import {useParams } from 'react-router-dom';
              2:{ name:'김미정', nickname:'Kim mi-sung'},
          }
 
-        const Third = () =>
+        const Post_my = () =>
         {
             const params = useParams();
             const profile = data[params.no];
@@ -25,4 +25,4 @@ import {useParams } from 'react-router-dom';
             );
         }
 
-export default Third;
+export default Post_my;
